@@ -1,0 +1,177 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h4 {
+    text-align: center;
+    margin: 50px 0px 20px 0px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.max-width-800 {
+    max-width: 800px;
+    width: 100%;
+}
+
+.hero-span {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.container-fluid {
+    width: 100%;
+    position: relative;
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.hero-image {
+    filter: brightness(50%);
+    height: 860px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.image-text-centered {
+    transform: translate(-50%, -50%);
+}
+
+.home-image-text-centered {
+    transform: translate(-35%, -50%);
+    text-indent: -3.3em;
+}
+
+.container-pink {
+    background-color: #e1cacc;
+}
+
+.container-blue {
+    background-color: #8cccf0;
+}
+
+.container-orange {
+    background-color: #f7bc46;
+}
+
+.row {
+    width: 100%;
+    max-width: 1500px;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding: 7px 0;
+    background-color: transparent;
+}
+
+input:hover {
+    border: 1px solid black;
+}
+
+input[type='submit'] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 0;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+    margin: 5px;
+    background-color: transparent;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+i {
+    margin: 0 5px;
+}
+
+.text-order {
+    order: 1;
+}
+
+.img-order {
+    order: 2;
+}
+
+@media(min-width: 767px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .hero-span {
+        font-size: 3rem;
+    }
+
+    .text-order {
+        order: 2;
+    }
+
+    .img-order {
+        order: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        justify-content: center;
+    }
+}
