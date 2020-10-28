@@ -28,6 +28,13 @@ i {
     margin: 0 5px;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .max-width-800 {
     max-width: 800px;
     width: 100%;
