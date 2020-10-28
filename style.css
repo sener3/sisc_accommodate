@@ -171,12 +171,12 @@ footer {
 }
 
 .link {
-    color: #000;
+    color: #666;
     text-decoration: none;
 }
 
 .link:hover {
-    color: #000;
+    color: #666;
 }
 
 @media(min-width: 767px) {
